@@ -1,0 +1,23 @@
+﻿@using DEPI_GraduationProject.Helper
+@model List<TeamMember>
+
+<div class="container">
+    <h1 class="text-center">Our Team</h1>
+    <div class="row">
+        @foreach (var member in Model)
+        {
+            <div class="col-md-4 text-center mb-4">
+                <div class="card">
+                    <img src="@member.PictureUrl" class="card-img-top" alt="@member.Name" style="height: 300px; object-fit: cover; margin-bottom: 15px;" />
+                    <div class="card-body">
+                        <h5 class="card-title">@member.Name</h5>
+                        <p class="card-text">
+                            <strong>Email:</strong> <a href="mailto:@member.Email">@member.Email</a><br />
+                            <strong>Phone:</strong> <a href="tel:@member.Phone">@member.Phone</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

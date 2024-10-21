@@ -1,0 +1,74 @@
+﻿@using DEPI_DomainLayer.Entities
+@model IEnumerable<Order>
+
+@{
+    var allOrderIds = new List<int>();
+    var quantities = new Dictionary<int, int>();
+}
+@if(User.IsInRole("User")){
+<h2>Your Orders</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Order Date</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th> <!-- Total for each product -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                foreach (var item in order.OrderItems)
+                {
+                    <tr>
+                        <td>@order.OrderDate.ToString("g")</td> <!-- Format Order Date -->
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price.ToString("C")</td>
+                        <td>@(item.Quantity * item.Price)</td> <!-- Total for each product -->
+                        
+                    </tr>
+                    quantities.Add(item.ProductId, item.Quantity);
+                }
+
+                // Add the OrderId to the list
+                allOrderIds.Add(order.Id);
+            }
+        </tbody>
+    </table>
+
+    <!-- Display Grand Total for all orders -->
+    <h4>
+        Total Amount:
+        @Model.Sum(order => order.OrderItems.Sum(item => item.Quantity * item.Price)).ToString("C")
+    </h4>
+
+    <!-- Convert the list of OrderIds to a comma-separated string -->
+    
+       var allOrderIdsString = string.Join(",", allOrderIds);
+    var quantitiesJson = Newtonsoft.Json.JsonConvert.SerializeObject(quantities);
+
+
+    <!-- Form to clear the cart -->
+    <form asp-action="ClearCart" method="post">
+        <input type="hidden" name="id" value="@allOrderIdsString" />
+        <input type="hidden" name="quantities" value="@quantitiesJson   " />
+        <button type="submit" class="btn btn-danger">Clear Cart</button>
+    </form>
+}
+else
+{
+    <p>Your cart is empty.</p>
+    }
+}
+else
+{
+    <div class="alert alert-danger" >
+        Admin can't authorize to make an order.
+    </div>
+}

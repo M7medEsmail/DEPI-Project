@@ -1,0 +1,12 @@
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\DEPI_DomainLayer.csproj.AssemblyReference.cache
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\DEPI_DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\DEPI_DomainLayer.AssemblyInfoInputs.cache
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\DEPI_DomainLayer.AssemblyInfo.cs
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\DEPI_DomainLayer.csproj.CoreCompileInputs.cache
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\bin\Debug\net8.0\DEPI_DomainLayer.deps.json
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\bin\Debug\net8.0\DEPI_DomainLayer.dll
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\bin\Debug\net8.0\DEPI_DomainLayer.pdb
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\DEPI_DomainLayer.dll
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\refint\DEPI_DomainLayer.dll
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\DEPI_DomainLayer.pdb
+E:\FCI\My_Project\DEPI\DEPI_DomainLayer\obj\Debug\net8.0\ref\DEPI_DomainLayer.dll

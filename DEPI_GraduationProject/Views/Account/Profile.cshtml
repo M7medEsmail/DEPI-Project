@@ -1,0 +1,25 @@
+﻿DEPI_DomainLayer.Entities
+@model ApplicationUser
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Your Profile</h2>
+
+    <div class="card">
+        <div class="card-body text-center">
+
+            <img src="@Model.PicturalUrl" class="img-fluid rounded-circle mb-3" alt="Profile Picture" style="width: 150px; height: 150px; object-fit: cover;" />
+            
+            <!-- Display the User's Full Name -->
+            <h3 class="font-weight-bold mb-2">@Model.FirstName @Model.LastName</h3>
+
+            <!-- Display the Email Address -->
+            <p class="mb-1"><i class="mdi mdi-email"></i> <strong>Email:</strong> @Model.Email</p>
+
+            <!-- Display the Mobile Phone -->
+            <p class="mb-1"><i class="mdi mdi-phone"></i> <strong>Phone:</strong> @Model.PhoneNumber</p>
+
+        </div>
+    </div>
+
+
+</div>

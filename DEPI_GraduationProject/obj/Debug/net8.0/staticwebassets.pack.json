@@ -1,0 +1,681 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DEPI_GraduationProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DEPI_GraduationProject.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\1710244451202_452a3571-1a67-4dba-bdf8-8bfe170bd0e1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\1710244451202_452a3571-1a67-4dba-bdf8-8bfe170bd0e1.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\1710244451202_a96215be-d822-4884-88b5-469bc8c6ba4e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\1710244451202_a96215be-d822-4884-88b5-469bc8c6ba4e.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\1710244451202_b8945ef0-d9bb-4cbb-9c31-375624c4d14e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\1710244451202_b8945ef0-d9bb-4cbb-9c31-375624c4d14e.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\1710775549403_1d0bd7ee-ed00-4cdb-bf8c-1590fb14c1f1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\1710775549403_1d0bd7ee-ed00-4cdb-bf8c-1590fb14c1f1.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\1710775549403_af8bcaa4-82a2-4528-bf11-c23eeb14b923.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\1710775549403_af8bcaa4-82a2-4528-bf11-c23eeb14b923.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\1714051271244_773ecfeb-97e7-4284-b9a6-c66163b5a337.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\1714051271244_773ecfeb-97e7-4284-b9a6-c66163b5a337.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\1_c04121f5-b75c-46a5-ba5e-b515ae336a9f.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\1_c04121f5-b75c-46a5-ba5e-b515ae336a9f.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\41wak-2XvAL._AC__4e7ae2f0-bdb1-44ba-895b-15536f5c9c7c.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\41wak-2XvAL._AC__4e7ae2f0-bdb1-44ba-895b-15536f5c9c7c.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\512LuQyL3BL._AC_SL1500__a2361a46-0779-48fa-9b61-0e5b7c951f2f.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\512LuQyL3BL._AC_SL1500__a2361a46-0779-48fa-9b61-0e5b7c951f2f.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\513DQGmivPL._AC_SL1000__6a5bb336-8e0f-4a9c-a1e3-ef6d7d526d45.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\513DQGmivPL._AC_SL1000__6a5bb336-8e0f-4a9c-a1e3-ef6d7d526d45.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\514moImkOQL._AC_SL1000__04733576-48dd-41e5-8f4c-79f4f8b8ccad.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\514moImkOQL._AC_SL1000__04733576-48dd-41e5-8f4c-79f4f8b8ccad.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\517yLNCqurL._AC_SL1500__48a9ce22-dac6-43d2-92c0-836d6f48730f.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\517yLNCqurL._AC_SL1500__48a9ce22-dac6-43d2-92c0-836d6f48730f.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\51KMC+y5LzL._AC_SL1084__603b4b5f-cf11-4a34-92af-15be875c6e80.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\51KMC+y5LzL._AC_SL1084__603b4b5f-cf11-4a34-92af-15be875c6e80.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\51KMC+y5LzL._AC_SL1084__99a0e6a2-8198-470a-ba2b-20af2044e350.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\51KMC+y5LzL._AC_SL1084__99a0e6a2-8198-470a-ba2b-20af2044e350.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\51KMC+y5LzL._AC_SL1084__ff517743-e25a-40c3-842d-bfc5585c59ab.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\51KMC+y5LzL._AC_SL1084__ff517743-e25a-40c3-842d-bfc5585c59ab.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\51itXx3bJAL._AC__33e27a25-5681-47e4-9188-3598b779014b.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\51itXx3bJAL._AC__33e27a25-5681-47e4-9188-3598b779014b.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\51kTUpZbBNL._AC_SL1500__95b5d164-c440-404d-b2e8-773f06e33574.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\51kTUpZbBNL._AC_SL1500__95b5d164-c440-404d-b2e8-773f06e33574.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\51kTUpZbBNL._AC_SL1500__e88eb7fa-9b03-497c-bc96-80b5efd6009d.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\51kTUpZbBNL._AC_SL1500__e88eb7fa-9b03-497c-bc96-80b5efd6009d.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\51yktMTXbGL._AC_SL1000__13f2a3df-1191-4c58-a7da-a6f2c3da929c.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\51yktMTXbGL._AC_SL1000__13f2a3df-1191-4c58-a7da-a6f2c3da929c.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\612Rldd5TuL._AC_SL1500__d5008bc0-f222-4875-b4d1-d48f71acba57.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\612Rldd5TuL._AC_SL1500__d5008bc0-f222-4875-b4d1-d48f71acba57.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\618boHspPnL._AC_SL1500__b25ddb5a-7e62-44bf-be97-a3ece3987cce.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\618boHspPnL._AC_SL1500__b25ddb5a-7e62-44bf-be97-a3ece3987cce.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61CCJMuSlxL._AC_SL1500__5bc7e3a9-7f94-466d-b554-7afe8b51057d.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61CCJMuSlxL._AC_SL1500__5bc7e3a9-7f94-466d-b554-7afe8b51057d.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61RCRdEvQlL._AC_SL1500__2c93aa0d-f11b-4b83-8b1f-d2e8f076f81f.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61RCRdEvQlL._AC_SL1500__2c93aa0d-f11b-4b83-8b1f-d2e8f076f81f.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61bK6PMOC3L._AC_SL1500__2efe14ec-6404-4420-9acb-0e913b67dcc7.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61bK6PMOC3L._AC_SL1500__2efe14ec-6404-4420-9acb-0e913b67dcc7.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61bK6PMOC3L._AC_SL1500__84278077-85ed-43a5-a3b9-4047e15091cc.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61bK6PMOC3L._AC_SL1500__84278077-85ed-43a5-a3b9-4047e15091cc.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61cOSIj6kpL._AC_SL1394__ebb754ce-702c-44b7-b513-37f77cde3827.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61cOSIj6kpL._AC_SL1394__ebb754ce-702c-44b7-b513-37f77cde3827.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61hgWCFnzVL._AC_SL1500__23bd8729-cb79-4f06-aedc-0d53a6ef7089.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61hgWCFnzVL._AC_SL1500__23bd8729-cb79-4f06-aedc-0d53a6ef7089.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61hgWCFnzVL._AC_SL1500__80a9e687-644a-420d-a622-1f266084adc9.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61hgWCFnzVL._AC_SL1500__80a9e687-644a-420d-a622-1f266084adc9.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61hgWCFnzVL._AC_SL1500__c131f760-133e-4550-8e38-b71144a37ed0.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61hgWCFnzVL._AC_SL1500__c131f760-133e-4550-8e38-b71144a37ed0.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61hgWCFnzVL._AC_SL1500__cc75a4fb-398a-446f-b38b-b36b178ed755.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61hgWCFnzVL._AC_SL1500__cc75a4fb-398a-446f-b38b-b36b178ed755.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61hgWCFnzVL._AC_SL1500__efb301aa-db23-468e-9c8f-e65409afe550.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61hgWCFnzVL._AC_SL1500__efb301aa-db23-468e-9c8f-e65409afe550.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\61lsexTCOhL._AC_SL1500__62bed4be-d857-4abb-a090-39f0bbb56298.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\61lsexTCOhL._AC_SL1500__62bed4be-d857-4abb-a090-39f0bbb56298.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\712i-Bxl8qL._AC_SL1500_ (1)_c4cdfba4-1d20-4983-923b-f969e35c3873.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\712i-Bxl8qL._AC_SL1500_ (1)_c4cdfba4-1d20-4983-923b-f969e35c3873.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\717trh2j6CL._AC_SL1500__6f9a3855-55a7-473c-9a52-73ee76d63c55.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\717trh2j6CL._AC_SL1500__6f9a3855-55a7-473c-9a52-73ee76d63c55.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\71GLMJ7TQiL._AC_SL1500__caaa6999-a147-4c74-82da-132b844793a5.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\71GLMJ7TQiL._AC_SL1500__caaa6999-a147-4c74-82da-132b844793a5.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\71GLMJ7TQiL._AC_SL1500__e4cd57f0-60bb-4539-b8ac-51c177bcef1a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\71GLMJ7TQiL._AC_SL1500__e4cd57f0-60bb-4539-b8ac-51c177bcef1a.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\71GLMJ7TQiL._AC_SL1500__e896dc98-231c-4882-9681-5ca28c256500.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\71GLMJ7TQiL._AC_SL1500__e896dc98-231c-4882-9681-5ca28c256500.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\71GLMJ7TQiL._AC_SL1500__fc737f05-4f63-4cf7-9340-6068d1b9792a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\71GLMJ7TQiL._AC_SL1500__fc737f05-4f63-4cf7-9340-6068d1b9792a.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\71dp84T5tAL._AC_SL1500__ce5c4b68-30a6-4205-99d8-a896771f5d0a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\71dp84T5tAL._AC_SL1500__ce5c4b68-30a6-4205-99d8-a896771f5d0a.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\811x34QKvRL._AC_SL1500__7409be87-ba61-46eb-b901-d6816d1ab55f.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\811x34QKvRL._AC_SL1500__7409be87-ba61-46eb-b901-d6816d1ab55f.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\811x34QKvRL._AC_SL1500__d2788f4e-8229-4933-ab72-4cafec066629.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\811x34QKvRL._AC_SL1500__d2788f4e-8229-4933-ab72-4cafec066629.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\81Gphn97m9L._AC_SL1500__146958f2-b51d-42c9-95b7-b1092c317950.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\81Gphn97m9L._AC_SL1500__146958f2-b51d-42c9-95b7-b1092c317950.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\Congratulations!_96262488-8ae3-4112-b1a5-ac2f2c76b44a.png",
+      "PackagePath": "staticwebassets\\Images\\Product\\Congratulations!_96262488-8ae3-4112-b1a5-ac2f2c76b44a.png"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\Remini20210708191740345_6dd841d9-bb32-4d8e-8a88-b381f77f680b.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\Remini20210708191740345_6dd841d9-bb32-4d8e-8a88-b381f77f680b.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2023-10-08 at 14.33.03_80623e43_c1e79f26-0b20-4150-beb9-5163c27ecaaf.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2023-10-08 at 14.33.03_80623e43_c1e79f26-0b20-4150-beb9-5163c27ecaaf.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2023-10-08 at 14.33.04_5e48af69_02de6f98-a68c-439e-b983-5f58c8e92629.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2023-10-08 at 14.33.04_5e48af69_02de6f98-a68c-439e-b983-5f58c8e92629.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-04-27 at 21.38.12_a3f3633d_02b3661c-7a3a-43eb-ae65-54f8fed7f45e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-04-27 at 21.38.12_a3f3633d_02b3661c-7a3a-43eb-ae65-54f8fed7f45e.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-05-09 at 22.15.05_d90fbf45_3f9197b4-f399-4b7a-bc3c-13de90e8e979.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-05-09 at 22.15.05_d90fbf45_3f9197b4-f399-4b7a-bc3c-13de90e8e979.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-06-07 at 13.55.03_71ef0bae_492794b7-8a9f-4a07-8877-bce925022a1b.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-06-07 at 13.55.03_71ef0bae_492794b7-8a9f-4a07-8877-bce925022a1b.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.31_67bd583f_2b91604a-8e08-4f0a-8203-3867914c2ef5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.31_67bd583f_2b91604a-8e08-4f0a-8203-3867914c2ef5.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.31_67bd583f_72bcf62f-ca14-449a-b5c5-fff5b7f9fea4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.31_67bd583f_72bcf62f-ca14-449a-b5c5-fff5b7f9fea4.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.31_67bd583f_f9461122-505b-4308-b893-b2518015dc3b.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.31_67bd583f_f9461122-505b-4308-b893-b2518015dc3b.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.33_5b5af93d_164f82b2-ec03-4cc7-9a01-e8c384140fe3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.33_5b5af93d_164f82b2-ec03-4cc7-9a01-e8c384140fe3.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.33_5b5af93d_f502a4ea-92cf-4e6d-9523-28ba484d3266.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.33_5b5af93d_f502a4ea-92cf-4e6d-9523-28ba484d3266.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.33_c79d5ba9_13b15adc-7cc2-40e8-af6e-d091cf92a12d.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.33_c79d5ba9_13b15adc-7cc2-40e8-af6e-d091cf92a12d.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.33_c79d5ba9_49260551-0ea8-4728-8902-948494399e76.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.33_c79d5ba9_49260551-0ea8-4728-8902-948494399e76.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.36_c0774016_34608d6f-5a19-435e-9b62-bbdd390efa11.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.36_c0774016_34608d6f-5a19-435e-9b62-bbdd390efa11.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.36_c0774016_5c7372fd-4f24-4bbd-ab1b-3504b23e381e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-15 at 19.17.36_c0774016_5c7372fd-4f24-4bbd-ab1b-3504b23e381e.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\WhatsApp Image 2024-10-16 at 14.56.07_ff5dd6cd_b867596d-b507-497d-94df-680127e20696.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\WhatsApp Image 2024-10-16 at 14.56.07_ff5dd6cd_b867596d-b507-497d-94df-680127e20696.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\download (2)_a867b8c1-6cdd-4641-961a-ac58b930b6d6.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\download (2)_a867b8c1-6cdd-4641-961a-ac58b930b6d6.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\download (3)_1ccf0123-3bec-472a-9e3e-7df94422256b.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\download (3)_1ccf0123-3bec-472a-9e3e-7df94422256b.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\logo_adf6bf59-7137-43d8-a457-7c37f0fc2859.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\logo_adf6bf59-7137-43d8-a457-7c37f0fc2859.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Product\\logo_f8b1b081-0a28-4046-9ad2-9405227a3462.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\logo_f8b1b081-0a28-4046-9ad2-9405227a3462.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Team\\ahmed.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Team\\ahmed.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Team\\eslam.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Team\\eslam.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Team\\mohamed.jpg",
+      "PackagePath": "staticwebassets\\Images\\Team\\mohamed.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710244451202_3b32c4f8-11bc-41ee-ab0d-050f0619707b.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710244451202_3b32c4f8-11bc-41ee-ab0d-050f0619707b.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_0531be6e-423c-4665-9381-9179ff1dc75e.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_0531be6e-423c-4665-9381-9179ff1dc75e.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_06341cbf-90c8-4306-bc57-925a25692944.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_06341cbf-90c8-4306-bc57-925a25692944.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_243bcfa1-f58f-4ad7-9b36-c6ed7a790339.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_243bcfa1-f58f-4ad7-9b36-c6ed7a790339.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_381f0cc1-3de3-4bcb-a67d-f31c56e74385.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_381f0cc1-3de3-4bcb-a67d-f31c56e74385.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_4da713ca-e2f5-4e08-9c88-2b3add6f8f31.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_4da713ca-e2f5-4e08-9c88-2b3add6f8f31.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_59d4c47b-4d91-42c5-bc9d-ddfda1d3b897.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_59d4c47b-4d91-42c5-bc9d-ddfda1d3b897.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_5aa132e1-2bc6-4910-97fa-d7c9377651b1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_5aa132e1-2bc6-4910-97fa-d7c9377651b1.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_78d21f56-71d7-4fbf-82b9-b1080e20aed6.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_78d21f56-71d7-4fbf-82b9-b1080e20aed6.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_790f6a30-bda1-4469-82af-9c97c70cdeba.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_790f6a30-bda1-4469-82af-9c97c70cdeba.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_8e3adfda-f385-434b-866a-11b78c305778.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_8e3adfda-f385-434b-866a-11b78c305778.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_967c5c9f-c126-417d-8ea4-b162d57e9122.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_967c5c9f-c126-417d-8ea4-b162d57e9122.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_b54f7a60-fac3-4059-8671-a49b39b35fd7.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_b54f7a60-fac3-4059-8671-a49b39b35fd7.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_b7f37422-a3a0-4c9a-b1fc-bda0a6089809.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_b7f37422-a3a0-4c9a-b1fc-bda0a6089809.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_b9e82f13-f9df-45b5-bdcd-1676aeb0b2ab.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_b9e82f13-f9df-45b5-bdcd-1676aeb0b2ab.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_c8146f24-b352-4466-91f5-f9bd59c6488b.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_c8146f24-b352-4466-91f5-f9bd59c6488b.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_cc9412a9-a1a1-4179-9816-67f09fd73ffe.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_cc9412a9-a1a1-4179-9816-67f09fd73ffe.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_df5bbcc4-9049-494d-a59c-ab5d1eb7e104.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_df5bbcc4-9049-494d-a59c-ab5d1eb7e104.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1710775549403_f600fef7-84ea-4c41-b35c-92b1aa31c1cd.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1710775549403_f600fef7-84ea-4c41-b35c-92b1aa31c1cd.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1714051271244_22bcaa62-8cff-4bdb-b399-9dea920c8ac4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1714051271244_22bcaa62-8cff-4bdb-b399-9dea920c8ac4.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1714051271244_8ab140ec-db0b-43f7-83b5-1ba83bec2d75.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1714051271244_8ab140ec-db0b-43f7-83b5-1ba83bec2d75.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1714051271244_b08bad2e-6d2d-4836-8cba-b6819cedecfb.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1714051271244_b08bad2e-6d2d-4836-8cba-b6819cedecfb.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\1714051271244_b8953882-d37a-4a02-b406-8e54c85bfd33.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\1714051271244_b8953882-d37a-4a02-b406-8e54c85bfd33.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\Remini20210708191740345_e3566e09-98b9-4577-a440-58cd2bf6d326.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\Remini20210708191740345_e3566e09-98b9-4577-a440-58cd2bf6d326.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\Screenshot 2024-05-09 123113_4c85a352-22b7-41c6-bf9d-782bf0ece382.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\Screenshot 2024-05-09 123113_4c85a352-22b7-41c6-bf9d-782bf0ece382.png"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\WhatsApp Image 2024-05-10 at 13.54.46_108cd3d6_515185f1-6fd7-4b30-a57e-cbcbd5089ef3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\WhatsApp Image 2024-05-10 at 13.54.46_108cd3d6_515185f1-6fd7-4b30-a57e-cbcbd5089ef3.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\WhatsApp Image 2024-10-15 at 19.17.39_a275f8d5_b654c409-5647-4129-9d8b-52a5b3e0a752.jpg",
+      "PackagePath": "staticwebassets\\Images\\Users\\WhatsApp Image 2024-10-15 at 19.17.39_a275f8d5_b654c409-5647-4129-9d8b-52a5b3e0a752.jpg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\WhatsApp Image 2024-10-18 at 01.34.36_82637676_03795754-2a5e-417a-85bd-89bebc7fb931.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\WhatsApp Image 2024-10-18 at 01.34.36_82637676_03795754-2a5e-417a-85bd-89bebc7fb931.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\WhatsApp Image 2024-10-18 at 01.34.36_82637676_98472ed5-62bc-4cf5-a8d2-2bb134a6b22a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\WhatsApp Image 2024-10-18 at 01.34.36_82637676_98472ed5-62bc-4cf5-a8d2-2bb134a6b22a.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\WhatsApp Image 2024-10-18 at 01.35.14_5bac21b9_07499bc8-d39b-47d5-b65d-a9359427f69a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\WhatsApp Image 2024-10-18 at 01.35.14_5bac21b9_07499bc8-d39b-47d5-b65d-a9359427f69a.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\WhatsApp Image 2024-10-18 at 01.35.14_5bac21b9_2d5cef9d-a78e-453e-b42b-16b530137c8c.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\WhatsApp Image 2024-10-18 at 01.35.14_5bac21b9_2d5cef9d-a78e-453e-b42b-16b530137c8c.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\download (4)_03ddf98b-327d-43d6-b6e1-330dc8fcfbd6.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\download (4)_03ddf98b-327d-43d6-b6e1-330dc8fcfbd6.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\Users\\download (4)_c632f2dd-fee4-453f-9b33-939d81d9d600.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\download (4)_c632f2dd-fee4-453f-9b33-939d81d9d600.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\Images\\logo\\logo.jpeg",
+      "PackagePath": "staticwebassets\\Images\\logo\\logo.jpeg"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\assets\\css\\ekka.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ekka.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\assets\\css\\ekka.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\ekka.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\assets\\img\\logo\\images.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\images.png"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\assets\\img\\user\\user.png",
+      "PackagePath": "staticwebassets\\assets\\img\\user\\user.png"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\FCI\\My_Project\\DEPI\\DEPI_GraduationProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DEPI_GraduationProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DEPI_GraduationProject.props",
+      "PackagePath": "build\\DEPI_GraduationProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DEPI_GraduationProject.props",
+      "PackagePath": "buildMultiTargeting\\DEPI_GraduationProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DEPI_GraduationProject.props",
+      "PackagePath": "buildTransitive\\DEPI_GraduationProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

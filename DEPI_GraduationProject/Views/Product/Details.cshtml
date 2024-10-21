@@ -1,0 +1,55 @@
+﻿@using DEPI_DomainLayer.Entities
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@model Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+ 
+
+<div class="col-lg-3 col-md-6 mb-4">
+    <h2>@Model.Name</h2>
+    <div class="product-box p-4 bg-white shadow-sm">
+<div>
+    <img src="@Model.PictureUrl" alt="@Model.Name" width="200" />
+</div>
+<br />
+<div>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+
+    <p><strong>Stock:</strong> @Model.Stock</p>
+    <p><strong>Brand:</strong> @Model.ProductBrand.Name</p>
+    <p><strong>Type:</strong> @Model.ProductType.Name</p>
+</div>
+        @if (SignInManager.IsSignedIn(User))
+        {
+            var user = await UserManager.FindByNameAsync(User.Identity.Name);
+            var userId = user.Id;
+        <!-- Quantity Input and Add to Cart Form -->
+        <form asp-action="AddToCart" asp-controller="Order" method="post">
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                    <!-- Pass quantityId to AddToCart Action  -->
+                <input type="number" id="quantity" name="quantity" value="1" min="1" max="@Model.Stock" class="form-control" required />
+            </div>
+
+                <!-- Pass productId to AddToCart Action  -->
+            <input type="hidden" name="productId" value="@Model.Id" />
+                <!-- Pass UserId to AddToCart Action -->
+                <input type="hidden" name="userId" value="@userId" />
+                @if (User.IsInRole("User"))
+                {
+                    <button type="submit" class="btn btn-outline-primary">Add To Cart</button>
+                }
+        </form>
+
+        }
+        <a asp-action="index" asp-controller="Product" class="btn btn-outline-primary"> Back To List Of Product</a>
+    
+</div>
+</div>

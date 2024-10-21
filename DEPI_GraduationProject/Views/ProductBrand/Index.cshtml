@@ -1,0 +1,145 @@
+﻿@model IEnumerable<ProductBrand>
+
+@{
+    ViewData["Title"] = "Product Brands";
+}
+  
+@if (User.IsInRole("Admin"))
+{
+     <div class="container mt-5">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New Product Brand</a>
+    </p>
+
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>Name</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">
+                            <i class="fas fa-edit"></i>Update
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Delete
+                        </a>
+                    </td>
+                    @* <partial name="PartialView/UpdateCreatePartialView" model="@item.Id" /> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+}
+else if (User.IsInRole("User"))
+{
+
+    <!-- Featured Brands -->
+    <section class="categories-section text-center my-5">
+        <div class="container">
+
+            <h2 class="mb-4"> Our Brands</h2>
+            <div class="row">
+                @foreach (var brand in Model)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-box p-4 bg-white shadow-sm">
+                            @if (brand.Name == "")
+                            {
+                                <i class="mdi mdi-apple mdi-48px"></i>
+                            }
+                            @switch (brand.Name.ToLower())
+                            {
+                                case "apple":
+                                    <i class="mdi mdi-apple mdi-48px"></i>
+                                    break;
+
+                                case "mi":
+                                    <i class="mdi mdi-android mdi-48px"></i>
+                                    break;
+                                case "dell":
+                                    <i class="mdi mdi-windows mdi-48px"></i>
+                                    break;
+                                default:
+                                    <i class="mdi mdi-equal-box mdi-48px"></i>
+                                    break;
+
+                            }
+                            <h4>@brand.Name</h4>
+                            <form method="get">
+                                <!-- Change method to "get" -->
+                                <input type="hidden" name="Id" value="@brand.Id" />
+                                <button type="submit" asp-controller="Home"  asp-action="ProductByBrand" asp-route-id="@brand.Id" class="btn btn-outline-primary">
+                                    Browse @brand.Name
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="categories-section text-center my-5">
+        <div class="container">
+
+            <h2 class="mb-4"> Our Brands</h2>
+            <div class="row">
+                @foreach (var brand in Model)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-box p-4 bg-white shadow-sm">
+                            @if (brand.Name == "")
+                            {
+                                <i class="mdi mdi-apple mdi-48px"></i>
+                            }
+                            @switch (brand.Name.ToLower())
+                            {
+                                case "apple":
+                                    <i class="mdi mdi-apple mdi-48px"></i>
+                                    break;
+
+                                case "mi":
+                                    <i class="mdi mdi-android mdi-48px"></i>
+                                    break;
+                                case "dell":
+                                    <i class="mdi mdi-windows mdi-48px"></i>
+                                    break;
+                                default:
+                                    <i class="mdi mdi-equal-box mdi-48px"></i>
+                                    break;
+
+                            }
+                            <h4>@brand.Name</h4>
+                            <form method="get">
+                                <!-- Change method to "get" -->
+                                <input type="hidden" name="Id" value="@brand.Id" />
+                                <button type="submit" asp-controller="Product" asp-action="ProductByBrand" asp-route-id="@brand.Id" class="btn btn-outline-primary">
+                                    Browse @brand.Name
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+}

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "ProductByType";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Featured Products -->
+<section class="products-section text-center my-5">
+    <div class="container">
+        <h2 class="mb-4">Featured Products</h2>
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="product-box p-4 bg-white shadow-sm">
+                        <!-- Dynamically load product image -->
+                        <img src="@product.PictureUrl" alt="@product.Name" class="img-fluid mb-3">
+                        <!-- Display product name -->
+                        <h5>@product.Name</h5>
+
+                        <!-- Display product price -->
+                        <p>$@product.Price.ToString("F2")</p>
+                        <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-outline-success">View Product</a>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+            

@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Featured Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    @if (User.IsInRole("Admin"))
+    {
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Create New Product</a>
+        </p>
+
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="product-box p-4 bg-white shadow-sm">
+                        <!-- Dynamically load product image -->
+                        <img src="@product.PictureUrl" alt="@product.Name" class="img-fluid mb-3" />
+                        <!-- Display product name -->
+                        <h5>@product.Name</h5>
+                        <!-- Display product price -->
+                        <p>$@product.Price.ToString("F2")</p>
+                        <!-- Links for editing and deleting products -->
+                        <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-secondary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-outline-danger">Delete</a>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else if (User.IsInRole("User"))
+    {
+        <!-- Featured Products -->
+        <section class="products-section text-center my-5">
+            <h2 class="mb-4">Our Products</h2>
+            <div class="row">
+                @foreach (var product in Model)
+                {
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-box p-4 bg-white shadow-sm">
+                            <!-- Dynamically load product image -->
+                            <img src="@product.PictureUrl" alt="@product.Name" class="img-fluid mb-3" />
+                            <!-- Display product name -->
+                            <h5>@product.Name</h5>
+                            <!-- Display product price -->
+                            <p>$@product.Price.ToString("F2")</p>
+                            <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-outline-primary">View Product</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </section>
+    }
+    else
+    {
+        <!-- Featured Products -->
+        <section class="products-section text-center my-5">
+            <h2 class="mb-4">Our Products</h2>
+            <div class="row">
+                @foreach (var product in Model)
+                {
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-box p-4 bg-white shadow-sm">
+                            <!-- Dynamically load product image -->
+                            <img src="@product.PictureUrl" alt="@product.Name" class="img-fluid mb-3" />
+                            <!-- Display product name -->
+                            <h5>@product.Name</h5>
+                            <!-- Display product price -->
+                            <p>$@product.Price.ToString("F2")</p>
+                            <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-outline-primary">View Product</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </section>
+    }
+</div>

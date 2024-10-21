@@ -1,0 +1,19 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Delete";
+
+}
+@if (User.IsInRole("Admin"))
+{
+
+    <h1>Are you Sure to delete Product ?</h1>
+
+    <form asp-action="DeleteAction" asp-route-id="@Model.Id" method="post">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" readonly />
+        </div>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-light">Cancel </a>
+    </form>
+}

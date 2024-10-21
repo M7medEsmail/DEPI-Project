@@ -1,0 +1,15 @@
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\DEPI_BusinessLogicLayer.csproj.AssemblyReference.cache
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\DEPI_BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\DEPI_BusinessLogicLayer.AssemblyInfoInputs.cache
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\DEPI_BusinessLogicLayer.AssemblyInfo.cs
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\DEPI_BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\bin\Debug\net8.0\DEPI_BusinessLogicLayer.deps.json
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\bin\Debug\net8.0\DEPI_BusinessLogicLayer.dll
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\bin\Debug\net8.0\DEPI_BusinessLogicLayer.pdb
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\bin\Debug\net8.0\DEPI_DomainLayer.dll
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\bin\Debug\net8.0\DEPI_DomainLayer.pdb
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\DEPI_Bus.E3F6C11D.Up2Date
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\DEPI_BusinessLogicLayer.dll
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\refint\DEPI_BusinessLogicLayer.dll
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\DEPI_BusinessLogicLayer.pdb
+E:\FCI\My_Project\DEPI\DEPI_BusinessLogicLayer\obj\Debug\net8.0\ref\DEPI_BusinessLogicLayer.dll

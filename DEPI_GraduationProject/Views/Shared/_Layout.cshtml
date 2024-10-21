@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>@ViewData["Title"] - DEPI Project</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" rel="stylesheet" />
+    <!-- Ekka CSS -->
+    <link id="ekka-css" href="~/assets/css/ekka.css" rel="stylesheet" />
+    <!-- FAVICON -->
+    <link href="assets/img/favicon.png" rel="shortcut icon" />
+    <a href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">~/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map</a>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+
+</head>
+<body class="ec-header-fixed ec-sidebar-fixed ec-sidebar-light ec-header-light" id="body">
+	<!--  WRAPPER  -->
+	<div class="wrapper">
+		
+    <!-- LEFT MAIN SIDEBAR -->
+    <partial name="_LeftMainSidebae"/>
+    <!--End LEFT MAIN SIDEBAR -->
+	
+
+    <!--  PAGE WRAPPER -->
+		<div class="ec-page-wrapper">
+
+        <!-- Header -->
+        <partial name="_Header"/>
+        <!--End Header -->
+
+        <!-- CONTENT WRAPPER -->
+			<div class="ec-content-wrapper">
+			     @RenderBody()
+                  
+			</div>
+        <!-- End Content Wrapper -->
+        
+
+        <!-- Footer -->
+        <partial name="_Footer"/>
+        <!--End Footer-->
+        </div>
+    <!-- End Page Wrapper -->
+	</div> <!-- End Wrapper -->
+
+<!-- Common Javascript -->
+<script src="~/assets/js/bootstrap.bundle.min.js"></script>
+<!-- Ekka Custom -->
+<script src="~/assets/js/ekka.js"></script> 
+
+<script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("ValidationScriptSection", required: false)
+</body>
+ </html>
+ 

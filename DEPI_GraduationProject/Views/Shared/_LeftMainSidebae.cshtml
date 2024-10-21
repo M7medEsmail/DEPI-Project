@@ -1,0 +1,61 @@
+﻿@using DEPI_DomainLayer.Entities
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<div class="ec-left-sidebar ec-bg-sidebar">
+    <div id="sidebar" class="sidebar ec-sidebar-footer">
+
+        <div class="ec-brand">
+            <a asp-controller="Home" asp-action="Index" title="Som3a">
+                <img class="ec-brand-icon" src="~/images/logo/logo.jpeg" alt="" style="max-width: 50px; vertical-align: middle; margin-left: -10px;" />
+                <span class="ec-brand-name">TechSpot </span>
+                <img  />
+            </a>
+        </div>
+
+        <!-- begin sidebar scrollbar -->
+        <div class="ec-navigation" data-simplebar>
+            <!-- sidebar menu -->
+            <ul class="nav sidebar-inner" id="sidebar-menu">
+                <!-- Dashboard -->
+                <li class="active">
+                    <a class="sidenav-item-link" href="/">
+                        <i class="mdi mdi-home-variant-outline"></i>
+                        <span class="nav-text">Home</span>
+                    </a>
+                    <hr>
+                </li>
+
+                <li class="active">
+                    <a class="sidenav-item-link" href="/ProductType/Index">
+                        <i class="mdi mdi-apps"></i>
+                        <span class="nav-text">Category</span>
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="sidenav-item-link" href="/ProductBrand/Index">
+                        <i class="mdi mdi-tag-multiple"></i>
+                        <span class="nav-text">Brand</span>
+                    </a>
+                </li>
+
+                <!-- Additional Icons -->
+                <li class="nav-item active">
+                    <a class="sidenav-item-link" href="/Product/Index">
+                        <i class="mdi mdi-package"></i>
+                        <span class="nav-text">Product </span>
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="sidenav-item-link" href="/Order/GetOrdersByUserId">
+                        <i class="mdi mdi-cart"></i>
+                        <span class="nav-text">Orders</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

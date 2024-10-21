@@ -1,0 +1,151 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+    var brands = ViewBag.Brands as IEnumerable<ProductBrand>; 
+    var productTypes = ViewBag.Types as IEnumerable<ProductType>; // Cast ViewBag to the correct type
+}
+
+<!-- CONTENT WRAPPER -->
+            <div class="ec-content-wrapper">
+                <section class="hero-section text-center bg-light py-5">
+                    <div class="container">
+                        <h1 class="display-4 font-weight-bold">Welcome to Our E-Commerce Store!</h1>
+                        <p class="lead">Explore the latest collections, amazing deals, and exclusive offers.</p>
+
+                        <a href="/Product/Index" class="btn btn-primary btn-lg">Shop Now</a>
+                    </div>
+                </section>
+    
+                <!-- Featured Categories -->
+                <section class="categories-section text-center my-5">
+                    <div class="container">
+
+                        <h2 class="mb-4">Explore Our Categories</h2>
+                        <div class="row">
+                @foreach (var type in productTypes)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-box p-4 bg-white shadow-sm">
+                          
+                            @switch (type.Name.ToLower())
+                            {
+                                    case "laptop":
+                                    <i class="mdi mdi-laptop-windows mdi-48px"></i>
+                                    break;
+
+                                case "phone":
+                                    <i class="mdi mdi-cellphone mdi-48px"></i>
+                                    break;
+                                case "head phone":
+                                    <i class="mdi mdi-headphones mdi-48px"></i>
+                                    break;
+                                default:
+                                    <i class="mdi mdi-zip-box mdi-48px"></i>
+                                    break;
+
+                            }
+
+                            
+                            <h4>@type.Name</h4>
+                            <form method="get">
+                                <!-- Change method to "get" -->
+                                <input type="hidden" name="Id" value="@type.Id" />
+                                <button type="submit" asp-action="ProductByType" asp-controller="Product" asp-route-id="@type.Id" class="btn btn-outline-primary">
+                                    Browse @type.Name
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                }
+
+                        </div>
+                    </div>
+                </section>
+
+    <!-- Featured Brands -->
+    <section class="categories-section text-center my-5">
+        <div class="container">
+
+            <h2 class="mb-4">Explore Our Brands</h2>
+            <div class="row">
+                @foreach (var brand in brands)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-box p-4 bg-white shadow-sm">
+                            @if (brand.Name == "")
+                            {
+                                <i class="mdi mdi-apple mdi-48px"></i>
+                            }
+                            @switch (brand.Name.ToLower())
+                            {
+                                case "apple":
+                                    <i class="mdi mdi-apple mdi-48px"></i>
+                                    break;
+
+                                case "mi":
+                                    <i class="mdi mdi-android mdi-48px"></i>
+                                    break;
+                                case "dell":
+                                    <i class="mdi mdi-windows mdi-48px"></i>
+                                    break;
+                                default:
+                                    <i class="mdi mdi-equal-box mdi-48px"></i>
+                                    break;
+
+                            }
+                            <h4>@brand.Name</h4>
+                            <form method="get">
+                                <!-- Change method to "get" -->
+                                <input type="hidden" name="Id" value="@brand.Id" />
+                                <button type="submit" asp-action="ProductByBrand" asp-controller="Product" asp-route-id="@brand.Id" class="btn btn-outline-primary">
+                                    Browse @brand.Name
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+                <section class="products-section text-center my-5">
+                    <div class="container" >
+                        <h2 class="mb-4" >Featured Products</h2>
+            <div class="row"  >
+                @foreach (var product in Model)
+                {
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="product-box p-4 bg-white shadow-sm">
+                            <!-- Dynamically load product image -->
+                            <img src="@product.PictureUrl" alt="@product.Name" class="img-fluid mb-3">
+                            <!-- Display product name -->
+                            <h5>@product.Name</h5>
+
+                            <!-- Display product price -->
+                            <p>$@product.Price.ToString("F2")</p>
+                        
+                           
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <!-- Links for editing and deleting products -->
+                                <a asp-action="Edit" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-outline-secondary">Edit</a>
+                                <a asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-outline-danger">Delete</a>
+                            }
+                            else
+                            {
+                                <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id" class="btn btn-outline-primary">View Product</a>
+
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+                    </div>
+                </section>
+            </div>
+          

@@ -1,0 +1,76 @@
+﻿@using DEPI_DomainLayer.Entities
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<header class="ec-main-header" id="header">
+    <nav class="navbar navbar-static-top navbar-expand-lg">
+        <!-- Sidebar toggle button -->
+       
+        <div class="navbar-right">
+            <ul class="nav navbar-nav">
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    var user = await UserManager.FindByNameAsync(User.Identity.Name);
+                    var userImage = user.PicturalUrl;
+                    var userEmail = user?.FirstName;
+
+                    <li class="nav-item dropdown user-menu">
+                        <button class="dropdown-toggle nav-link ec-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="@userImage" class="user-image" alt="User Image" />
+                            <span class="d-none d-md-inline">Hello @User.Identity.Name!</span>
+                        </button>
+                       
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="Account" asp-action="LogOut">
+                            <i class="mdi mdi-logout"></i> LogOut
+                        </a>
+                    </li>
+                    <!-- Profile Icon (Inactive) -->
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="Account" asp-action="Profile" asp-route-id ="@user.Id">
+                            <i class="mdi mdi-account-circle-outline"></i> Profile
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Account" asp-action="Register">
+                                <i class="mdi mdi-account-plus"></i> Register
+                            </a>
+                        </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="Account" asp-action="Login">
+                            <i class="mdi mdi-login"></i> Login
+                        </a>
+                    </li>
+                }
+
+                <!-- Notifications Dropdown -->
+                <li class="dropdown notifications-menu custom-dropdown">
+                    <button class="dropdown-toggle notify-toggler custom-dropdown-toggler">
+                        <i class="mdi mdi-bell-outline"></i>
+                    </button>
+                </li>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <!-- Left content (if any) -->
+                        <!-- Right aligned content -->
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-item" asp-controller="Account" asp-action="Team">
+                                    <i class="mdi mdi-account-multiple"></i> Team Members
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </ul>
+        </div>
+    </nav>
+</header>

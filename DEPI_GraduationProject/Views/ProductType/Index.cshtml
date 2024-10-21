@@ -1,0 +1,138 @@
+﻿
+@model IEnumerable<ProductType>
+
+@{
+    ViewData["Title"] = "Product Types";
+}
+@if (User.IsInRole("Admin")){
+
+<div class="container mt-5">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New Product Type</a>
+    </p>
+
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>Name</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {   
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">
+                            <i class="fas fa-edit"></i>Update
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Delete
+                        </a>
+                    </td>
+                    @* <partial name="PartialView/UpdateCreatePartialView" model="@item.Id" /> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+}
+else if (User.IsInRole("User"))
+{
+    <!-- Featured Categories -->
+    <section class="categories-section text-center my-5">
+        <div class="container">
+
+            <h2 class="mb-4"> Our Categories</h2>
+            <div class="row">
+                @foreach (var type in Model)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-box p-4 bg-white shadow-sm">
+                            @switch (type.Name.ToLower())
+                            {
+                                case "laptop":
+                                    <i class="mdi mdi-laptop-windows mdi-48px"></i>
+                                    break;
+
+                                case "phone":
+                                    <i class="mdi mdi-cellphone mdi-48px"></i>
+                                    break;
+                                case "head phone":
+                                    <i class="mdi mdi-headphones mdi-48px"></i>
+                                    break;
+                                default:
+                                    <i class="mdi mdi-zip-box mdi-48px"></i>
+                                    break;
+
+                            }
+                         
+                            <h4>@type.Name</h4>
+                            <form method="get">
+                                <!-- Change method to "get" -->
+                                <input type="hidden" name="Id" value="@type.Id" />
+                                <button type="submit" asp-controller="Home" asp-action="ProductByType" asp-route-id="@type.Id" class="btn btn-outline-primary">
+                                    Browse @type.Name
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="categories-section text-center my-5">
+        <div class="container">
+
+            <h2 class="mb-4"> Our Categories</h2>
+            <div class="row">
+                @foreach (var type in Model)
+                {
+                    <div class="col-lg-4 col-md-6">
+                        <div class="category-box p-4 bg-white shadow-sm">
+                            @switch (type.Name.ToLower())
+                            {
+                                case "laptop":
+                                    <i class="mdi mdi-laptop-windows mdi-48px"></i>
+                                    break;
+
+                                case "phone":
+                                    <i class="mdi mdi-cellphone mdi-48px"></i>
+                                    break;
+                                case "head phone":
+                                    <i class="mdi mdi-headphones mdi-48px"></i>
+                                    break;
+                                default:
+                                    <i class="mdi mdi-zip-box mdi-48px"></i>
+                                    break;
+
+                            }
+
+                            <h4>@type.Name</h4>
+                            <form method="get">
+                                <!-- Change method to "get" -->
+                                <input type="hidden" name="Id" value="@type.Id" />
+                                <button type="submit" asp-controller="Product" asp-action="ProductByType" asp-route-id="@type.Id" class="btn btn-outline-primary">
+                                    Browse @type.Name
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+}
